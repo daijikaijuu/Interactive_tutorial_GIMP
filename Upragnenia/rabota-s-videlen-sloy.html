@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Vertebrate 
+Version    : 1.0
+Released   : 20100428
+Description: A two-column fixed-width template suitable for small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Учебник GIMP</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../jquery/jquery.slidertron-0.1.js"></script>
+<style type="text/css">
+@import url('../gallery.css');
+.style12 {
+				border-width: 0px;
+				background-color: #FFCACA;
+				text-align: center;
+}
+.style13 {
+				color: #AA2808;
+}
+
+.bg_txt{
+	background-color : #FFFFFF;
+	background-position : 0px 0px;
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : justify;
+	vertical-align : bottom;
+	}
+.style14 {
+				color: #800000;
+}
+.style15 {
+				color: #F90542;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">Учебник GIMP </a></h1>
+		<br/>
+		<h2><a href="http://www.gym075.edusite.ru/">МБОУ Гимназия №75 г.Казани</a></h2>
+	</div>
+	<!-- end div#logo -->
+	<div id="menu">
+		<ul>
+			<li class="active"><a href="../index.html">Главная</a></li>
+			<li><a href="upragnenia-soderg.html">Уроки</a></li>
+			<li><a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a></li>			
+			<li><a href="../Spravochnik/s1.html">Справочник</a></li>
+		</ul>
+	</div>
+	<!-- end div#menu -->
+</div>
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<div class="post-bgtop">
+				<div class="post-bgbtm">
+					<div class="entry">
+						<div class="entry">
+						<h2 class="title"><a href="#">Инструменты выделения</a></h2><br/>
+						
+						Почти всегда работа в растровом редакторе сводится к 
+						тому, что выделяются некоторые области, которые подлежат 
+						редактированию, трансформации, копированию или другим 
+						действиям.<br/><br/>
+						<h3>Цель урока</h3>
+						<br/>
+						<p> Создать изображение, в котором каждому элементу исходного изображения соответствует слой с этим 
+						элементом в создаваемом изображении. </p>
+						<br/>
+						<h3>Задачи</h3>
+						<br/>
+						<p class="style1">- Отработать технику выделений и простейших 
+						операций со слоями.</p>
+						<br/>
+						<h3>Требования к уровню подготовки обучающихся</h3><br/>
+						<p><span class="style15"><strong>Должны знать</strong></span>: 
+						режимы работы со слоями, инструмент <strong>Выделение</strong>.</p>
+						<p><span class="style15"><strong>Должны уметь</strong></span>: пользоваться инструментами выделения, выполнять сложение и 
+						вычитание областей, уметь изменять свойства областей выделения, выполнять простейшие функции со слоями и трансформацией 
+						слоев.</p>
+															<br/>
+						<h3>Учебный материал</h3>
+						<br/>
+						<p>Ознакомьтесь, пожалуйста, с разделами справки.</p>
+						<table style="width: 100%; height: 62px" class="style13">
+										<tr>
+														<td style="width: 268px">
+						<img alt="" src="../images1/okna/gimp-concepts-main-windows_files/spravka.png" width="180" height="25" class="style14" /></td>
+														<td class="style14">
+						<p>
+						<a target="_blank" href="../Spravochnik/instrument/instrument-videlenia.html">Инструменты выделения</a><br /></p>
+														</td>
+										</tr>
+						</table>
+						<br /><hr/><br/>
+															<h3>Этапы работы</h3>
+															<br/>
+						<p><strong>Исходные данные:</strong>
+						<font style="BACKGROUND-COLOR: #fdfcfd" class="bg_txt">
+						<a target="_blank" href="Imgup/ex01_st.jpg">1_1_s</a>
+						<br />
+						</font></p>
+						<p><strong>Результат:</strong>
+						<font style="BACKGROUND-COLOR: #fdfcfd" class="bg_txt">
+						<a target="_blank" href="Imgup/ex01_end.jpg">1_1_r</a>
+						<br />
+						</font></p>
+						<br/>
+
+		<h3>Алгоритм</h3><br />
+	<p>1. Посмотрим размеры исходного изображения и создадим новое с такими же размерами. Зальем фон нового изображения неярким, достаточно 
+		нейтральным цветом.</p>
+	<p>2. По очереди выделим игрушки инструментами выделения и перетащим в новое изображение.</p>
+	<p>3. Распределим игрушки на листе, сделаем дубликаты некоторых из них и их трансформацию.</p>
+	<p>4. Сохраним файл со слоями в формате XCF и копию в формате JPЕG.</p>
+										<br />
+	<blockquote>
+		<p class="style14"><strong>Советы</strong></p> 
+		<p>1. Каждая игрушка требует своей технологии выбора. </p>
+		<p>2. Инструмент <strong>Умные ножницы</strong> «знает», где проходит граница цвета, и следует вдоль нее, но если четкого контраста между 
+			цветами нет, этот инструмент «теряется» и создаст вам много неприятных минут, выбирая все что ему «вздумается», а не то, что нужно 
+			вам. </p>
+		<p>3. Если область выделения сложная, вспомните про функции сложения и вычитания областей – это намного облегчит вашу работу.</p>
+		<p>4. Области, близкие по цвету, проще выделять по цветовому диапазону с 
+		помощью инструмента <strong>Выделение по цвету</strong>. </p>
+		<p>5. Любые овальные и прямоугольные объекты выделяются соответствующими инструментами. </p>
+		<p>5. Если объект лежит на однородном поле можно сделать так: выделить его вместе с фоном и вычесть из выделения цветовую область фона.</p>
+		<p>6. Инструмент <strong>Перемещение</strong>&nbsp; не обязательно выбирать в панели инструментов. 
+			При нажатой клавише <strong><span class="style3">Ctrl</span></strong> любой инструмент  переключается на него. А вызвать его можно 
+			горячей клавишей <strong><span class="style3">V</span></strong>. </p>
+		<p>7. Сначала продумайте сюжет вашего изображения, а потом творите, но не наоборот.</p>
+		<p>8. Все скопированные игрушки располагаются на разных слоях, поэтому их можно расположить выше или ниже. </p>
+		<p>9. Чтобы игрушек стало больше, сделайте дубликат слоя и, используя трансформации, поверните, зеркально отобразите, измените масштаб 
+		объектов. </p>
+		<p>10. Не забывайте, что созданные слои прозрачны, поэтому не надо заново выделять на них изображения, достаточно сразу выполнять 
+		трансформацию слоя. Если же вам все-таки надо выделить изображение на слое, щелкните мышью на слое в палитре слоев с нажатой клавишей 
+		<strong><span class="style3">Ctrl</span></strong>. </p>
+		<p>11. Сохраняйте вашу работу в процессе и по окончании работы во внутреннем формате редактора. </p>
+		<p>12. Учитесь экономить силы и время. Напротив большинства команд в меню написаны
+			клавиатурные сокращения, нажав которые вы выполните команду гораздо быстрее.</p>
+		<p>13. Не старайтесь полностью повторять изображения, приведенные в примерах. Они приведены для того, чтобы вам было легче ориентироваться 
+		при выборе параметров,  используемых при создании изображения.</p>
+										</blockquote>
+										<br />
+		<blockquote>
+		<p class="style14"><strong>Подсказки</strong></p>
+		<p>1. Чтобы повторить изображение, вставляя его на отдельный слой, можно, конечно, воспользоваться старым, известным 
+			способом «копировать - вставить», но в GIMP существуют более удобные способы:</p>
+		<p class="style1">- В командах работы со слоями есть команда <strong>Dublicate Layer</strong> (дублировать слой), которая создает копию 
+		выделенного слоя. </p>
+		<p class="style1">- При работе с инструментами выделения и выделенными областями в контекстном меню есть команда 
+		<strong>Layer via copy</strong> (Слой копированием), которая позволяет сделать копию на новый слой, не используя буфер памяти. </p>
+		<p>4. Выделение по цвету – очень интересный инструмент. Он выделяет непрерывную область пикселов по их цветовой схожести. 
+		Основной параметр этого инструмента – <strong>Порог</strong>, который задает степень близости пикселов 
+		по цвету для их выбора. Если вам надо выбрать не один оттенок, а несколько, можно воспользоваться командой Select/Color Range 
+		(Выделение/Цветовой диапазон ). </p>
+		</blockquote>
+										
+<p>У всех инструментов выделения в параметрах есть очень полезная опция: <strong>Режим</strong>. Их четыре: </p>
+<p class="style1">А) <strong>новое выделение</strong>;</p>
+<p class="style1">Б) <strong>добавить к текущему выделению</strong> (<strong><span class="style3">Shift</span></strong>);</p>
+<p class="style1">В) <strong>вычесть из текущего выделения</strong> (<strong><span class="style3">Ctrl</span></strong>);</p>
+<p class="style1">Г) <strong>создать выделение из пересечения с текущим</strong> (<strong><span class="style3">Shift + Ctrl</span></strong>).</p>
+<p>Пиктограммы этих режимов наглядно показывают суть каждого.</p>
+<p>Удобно и то, что можно комбинировать режимы разных инструментов так, как это нужно. То есть одним инструментом создать выделение, а другим 
+добавить, вычесть или пересечь еще одно выделение (не забываем менять режим у инструмента!).</p>
+					<blockquote>
+						<p class="style13"><strong>Подсказка</strong></p>
+						<p>ЛЮБОЕ выделение снимается <strong>
+						<span class="style3">Ctrl + Shift + A</span></strong> или <strong>Выделение – Снять</strong>.</p>
+	<p>Весьма полезен пункт <strong>Выделение – Инвертировать</strong> (<strong><span class="style3">Ctrl + I</span></strong>), он делает 
+	выделение наоборот (выделится то, что не было выделено).</p>
+						</blockquote>
+						</div>
+										<div class="entry"><br/><br/><br/></div>
+					<div class="post.img">
+					<a target="_blank" href="../Zadachnik/zadach-5-1-fotoramka.html">
+					<img alt="" src="../images1/okna/knopka-zadanie.jpg" width="180" height="23" style="float: right" class="style13" /></a>
+					</div>	
+				
+				<div class="entry">
+					<br/><br/><br/>
+				</div>
+
+	</div>					
+</div>
+</div>
+</div>
+</div>
+			<div id="sidebar">
+				<div id="sidebar-bgtop">
+					<div id="sidebar-bgbtm">
+						<ul>
+							<li>
+								<h2>Содержание</h2>
+								<ul>
+									<li><a href="upragnenia-soderg.html">Уроки</a></li>
+									<li>
+									<a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a></li>
+									<li><a href="../Spravochnik/s1.html">Справочник</a></li>
+									<li><a href="../pravila.html">Об учебнике</a></li>
+									<li><a href="../glossariy.html">Глоссарий</a></li>
+
+									<li><a href="../resurs.html">Ресурсы</a></li>
+									<li>
+									<a href="../galereya/galereya-rabot.html">
+									Галерея</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end div#sidebar -->
+			<div style="clear: both; height: 1px"></div>
+		</div>
+	</div>
+	<!-- end div#page -->
+<!-- end div#wrapper -->
+<div id="footer-wrapper">
+	<div id="footer">
+		<p id="legal">Copyright &copy; 2016  Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+				<p id="legal">© 2016 <a href="#">&nbsp;Домрачева И.Н.</a> </p>
+		<p>&nbsp;</p>
+
+		<p id="links"><a href="../index.html">
+		<img alt="" src="../images1/okna/gimp-concepts-main-windows_files/home.png" width="24" height="24" class="style12" /></a></p>
+		<p>&nbsp;</p>
+		<p><a href="upragnenia-soderg.html">Уроки</a>&nbsp;&nbsp;&nbsp; <span lang="en-us">| </span>&nbsp;&nbsp;&nbsp; 
+		<a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a>&nbsp;&nbsp;&nbsp; <span lang="en-us">| </span>&nbsp;&nbsp;&nbsp; 
+		<a href="../Spravochnik/s1.html">Справочник</a></p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<!-- end div#footer -->
+
+
+</body>
+</html>

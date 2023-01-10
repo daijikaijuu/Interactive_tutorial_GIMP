@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Vertebrate 
+Version    : 1.0
+Released   : 20100428
+Description: A two-column fixed-width template suitable for small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Учебник GIMP</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../jquery/jquery.slidertron-0.1.js"></script>
+<style type="text/css">
+@import url('../gallery.css');
+.style12 {
+				border-width: 0px;
+				background-color: #FFCACA;
+				text-align: center;
+}
+.style13 {
+				color: #AA2808;
+}
+.style14 {
+				color: #F90542;
+}
+.style15 {
+				border-width: 0px;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">Учебник GIMP </a></h1>
+		<br/>
+		<h2><a href="http://www.gym075.edusite.ru/">МБОУ Гимназия №75 г.Казани</a></h2>
+	</div>
+	<!-- end div#logo -->
+	<div id="menu">
+		<ul>
+			<li class="active"><a href="../index.html">Главная</a></li>
+			<li><a href="upragnenia-soderg.html">Уроки</a></li>
+			<li><a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a></li>			
+			<li><a href="../Spravochnik/s1.html">Справочник</a></li>
+		</ul>
+	</div>
+	<!-- end div#menu -->
+</div>
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<div class="post-bgtop">
+				<div class="post-bgbtm">
+					<div class="entry">
+						<div class="entry">
+						<h2 class="title"><a href="#">Инструменты выделения</a></h2><br/>
+						<font style="BACKGROUND-COLOR: #fdfcfd" class="bg_txt">
+						Почти всегда работа в растровом редакторе сводится к 
+						тому, что выделяются некоторые области, которые подлежат 
+						редактированию, трансформации, копированию или другим 
+						действиям.</font><br/><br/>
+						<h3>Цель урока</h3>
+						<br/>
+						<p>- Научиться работать с инструментами выделения изображений</p>
+						<br/>
+						<h3>Задачи</h3>
+						<br/>
+						<p class="style1">- познакомиться с инструментами выделения;</p>
+						<p class="style1">- научиться создавать сложные выделения, используя 
+						различные инструменты выделения;</p>
+						<p class="style1">- научиться работать с опцией <strong>Режим</strong>;</p>
+						<p class="style1">- <span lang="ru">отработать технику выделений.</span></p>
+						<br/>
+						<h3>Требования к уровню подготовки обучающихся</h3>
+						<br/>
+						<p><span class="style14"><strong>Должны знать:</strong></span><span lang="ru"> инструменты и способы 
+						выделения.</span></p>
+						<p><span class="style14"><strong>Должны уметь:</strong></span> пользоваться инструментами выделения, 
+						выполнять сложение и вычитание областей,&nbsp; изменять свойства областей выделения.</p>
+						<br/>
+						<h3>Учебный материал</h3>
+						<br/>
+						<p>Ознакомьтесь, пожалуйста, с разделами справки.</p>
+						<table style="width: 100%; height: 62px" class="style13">
+										<tr>
+														<td style="width: 268px">
+						<img alt="" src="../images1/okna/gimp-concepts-main-windows_files/spravka.png" width="180" height="25" class="style14" /></td>
+														<td class="style14">
+						<p>
+						<a target="_blank" href="../Spravochnik/Glava5-instrument-videlenia/instrument-videlenia.html">Инструменты выделения</a><br /></p>
+														</td>
+										</tr>
+						</table>
+			<br/><hr/><br/>
+						<h3>Содержание</h3>
+						<br/>
+						<p class="style1"><a href="#Прямоугольное_выделение_(R)_и_Эллиптическое_выделение_(E)">Прямоугольное выделение (R) и Эллиптическое выделение (E)</a></p>
+						<p class="style1"><a href="#Свободное_выделение_(F)">Свободное выделение (F)&nbsp;</a></p>
+						<p class="style1"><a href="#Выделение_смежных_областей_(U)">Выделение смежных областей (U)&nbsp;</a></p>
+						<p class="style1"><a href="#Выделение_по_цвету_(Shift_+_O)">Выделение по цвету (Shift + O)&nbsp;</a></p>
+						<p class="style1"><a href="#Умные_ножницы_(I)">Умные ножницы (I)&nbsp;</a></p>
+						<p class="style1"><a href="#Выделение_переднего_плана">Выделение переднего плана&nbsp;</a></p>
+						<p class="style1"><a href="#ВЫДЕЛЕНИЕ_С_ПОМОЩЬЮ_БЫСТРОЙ_МАСКИ">Выделение с помощью быстрой маски</a></p>
+						<p class="style1"><a href="#ВЫДЕЛЕНИЕ_С_ПОМОЩЬЮ_АЛЬФА-КАНАЛА">Выделение с помощью альфа-канала</a></p>
+						<br/>
+				<h3>Этапы работы</h3>
+						<br/>
+						<p>1. Запустить GIMP.</p>
+						<p>2. <strong>Меню - Файл - Открыть</strong>.
+						<a href="Imgup/mult-2.jpg"><span lang="ru">Учебник
+						</span>GIMP<span lang="ru">\</span>Upragnenia\Imgup\mult-2.jpg</a></p>
+						<br/>
+						<p>Обычно границы выделенной области отмечаются мигающей пунктирной линией
+						<span lang="ru">(&quot;муравьиная дорожка&quot;). </span>. Можно преобразовать ее в 
+контур, выбрав в контекстном меню <strong>Выделение</strong> команду <strong>В контур</strong>.
+</p>
+						<p><span lang="ru">Д</span>важды щелкнув по кнопке выбранного инструмента, открывается окно 
+						<strong>Параметры
+инструментов</strong>. Почти все инструменты выделения имеют опции <strong>Растушевка</strong> и
+						<strong>Выравнивание</strong>.</p>
+						<p>Опция <strong>Растушевка</strong> позволяет сгладить границы выделяемой области за счет
+создания на границе каймы с плавным увеличением прозрачности. Параметр <em>Радиус</em>
+определяет ширину растушеванной области (в процентах). Если задать значение
+параметра Радиус слишком большим, растушеванная область целиком покроет
+выделенную часть изображения, при этом контур выделения отображаться не будет. </p>
+						<p>Опция <strong>Выравнивание</strong> позволяет сгладить границы выделяемой области за счет
+создания вокруг границы каймы шириной один пиксел<span lang="ru">ь</span> с плавным переходом цветов.&nbsp;</p>
+<br/>
+						<h3>
+						<a name="Прямоугольное_выделение_(R)_и_Эллиптическое_выделение_(E)">Прямоугольное выделение (R) и Эллиптическое выделение (E)</a></h3>
+						<br/>
+						<p><span lang="ru">Инструменты п</span>редназначены для
+выделения областей прямоугольной и эллиптической формы соответственно.
+</p>
+						<p>Первый способ (используется по умолчанию): область строится по двум
+противоположным вершинам прямоугольника построения - прямоугольника, описанного
+вокруг создаваемой области выделения.
+</p>
+						<p>Второй способ (клавиша <strong><span class="style3">Ctrl</span></strong> нажата): область строится по центру и вершине
+прямоугольника построения. Нажмите кнопку мышки в той точке изображения, где будет
+находится центр прямоугольника построения и, не отпуская кнопки мышки, нажмите
+клавишу <strong><span class="style3">Ctrl</span></strong> и перетащите курсор в точку, где будет находится вершина.
+</p>
+						<p>Чтобы выделить часть изображения квадратной или круглой формы, в процессе
+построения области нажмите клавишу <strong><span class="style3">Shift</span></strong>, если вы используете первый способ
+построения, или клавиши <strong><span class="style3">Shift+Ctrl</span></strong> при втором способе построения.</p>
+						<p>Чтобы выделить объект, нужно просто заключить его в рамку (зажимаем левую кнопку мыши (далее - 
+						<strong><span class="style3">ЛКМ</span></strong>) и 
+						тянем), а затем подогнать рамку по размерам. </p>
+						<p>Когда&nbsp; имеется более<span lang="ru">,</span> чем одна выделенная область, и 
+						<span lang="ru">нужно</span> отменить
+лишь последнюю, щелкните правой кнопкой мышки (и отпустите левую) прежде, чем
+закончите ее построение, либо нажмите комбинацию клавиш <strong>
+						<span class="style3">Ctrl+Z</span></strong> (команда
+						<strong>Правка</strong> - <strong>Отменить</strong>) после того, как область уже будет выделена.
+</p>
+						<p>После создания одной выделенной области, нажмите на 
+						<strong><span class="style3">Shift</span></strong> и создайте
+следующую область. Если выделенные участки пересекаются, они будут объединены в
+единую область&nbsp;</p>
+						<p>1. Выберите инструмент <strong>Прямоугольное выделение</strong>. </p>
+						<p>2.	Выделите область на изображении – она будет обозначаться «бегущими муравьями».
+</p>
+						<p>3. Выберите инструмент <strong>Кисть</strong>.
+</p>
+						<p>4.	Сделайте несколько штрихов по изображению. Убедитесь, что кисть действует только внутри выделенной области.
+</p>
+						<p>5.	Нажмите <strong><span class="style3">Ctrl+Z</span></strong>, чтобы отменить последнее действие.
+</p>
+						<p>6.	Нажмите <span lang="en-us"><strong>
+						<span class="style3">Shift+</span></strong></span><strong><span class="style3">Ctrl+А</span></strong>, чтобы снять выделение.
+</p>
+						<p>7.	Снова сделайте выделение, удерживая клавишу<strong><span class="style3"> Shift</span></strong>, – оно получится квадратным.
+&nbsp;</p>
+					</div>
+<div class="post .entry">
+<img alt="" src="Imgup/ris-2.jpg" width="600" height="400" />
+<img alt="" src="Imgup/ris-3.jpg" width="600" height="350" />
+
+</div> 
+					<div class="entry">
+
+						<p>8. Потренируйтесь, выделяя разные объекты на рисунке с помощью 
+						инструментов <strong>Прямоугольное выделение</strong> и
+						<strong>Эллиптическое выделение</strong>.</p>
+						<br/>
+						<h3><a name="Свободное_выделение_(F)"><b>Свободное выделение </b>(<b>F</b>)</a></h3>
+</div>
+			<div class="entry">
+						<p>Выделение «от руки». Выделять инструментом можно двумя 
+						способами: </p>
+						<p class="style1">а) как <strong>карандашом</strong> (просто обводим изображение, не отпуская 
+						<strong><span class="style3">ЛКМ</span></strong>);</p>
+						<p class="style1">б) <strong>по опорным точкам</strong> (<strong><span class="style3">ЛКМ</span></strong> ставим точки, которые будут соединены прямыми и образуют выделение)&nbsp;</p>
+						<p>4. Потренируйтесь, выделяя объекты на рисунке разными способами.</p>
+						<h3><a name="Выделение_смежных_областей_(U)">Выделение смежных областей (U)</a></h3>
+						<br/>
+						<p>Выделяет соседние области, схожие по цвету. Схожесть регулируется ползунком 
+						<strong>Порог</strong> в 
+						параметрах инструмента, чем порог больше, тем больше оттенков войдет в выделение. Чтобы выделить, 
+						просто <span lang="ru">кликаем</span> <strong>
+						<span class="style3">ЛКМ</span></strong> на нужной нам области.</p>
+						<p>5<span lang="ru">. Потренируйтесь, выделяя области, 
+						схожие по цвету, инструментом <strong>Выделение смежных 
+						областей,</strong> изменяя значения<strong> </strong>
+						<em>Порога</em><strong>.</strong></span></p>
+						
+			</div>
+				<div class="entry">
+						<h3><a name="Выделение_по_цвету_(Shift_+_O)">Выделение по цвету (Shift + O)</a></h3>
+						<br/>
+						<p>Выделяет области с заливкой схожего цвета, в отличие от предыдущего инструмента – по 
+						всему изображению/слою. Принцип действия тот же самый, так же используется 
+						<strong>Порог</strong>.&nbsp;</p>
+						<p>6<span lang="ru">. Потренируйтесь, выделяя области 
+						схожего цвета инструментом <strong>Выделение по цвету</strong>, 
+						меняя значения <em>Порога</em>.</span></p>
+			</div>
+					<div class="entry">
+					<h3><a name="Умные_ножницы_(I)">Умные ножницы (I)</a></h3>
+					<br/>
+					<p>Выделяет объект, распознавая его край. Распознавание идет по цвету и степени контрастности областей
+					 с одной и с другой стороны от линии выделения. Выделение делается с помощью опорных точек 
+					 (см. <a href="#Свободное_выделение_(F)">Свободное выделение</a>). Активируется выделение простым кликом 
+					<strong><span class="style3">ЛКМ</span></strong> внутри созданного контура. 
+					 Не очень точный инструмент.&nbsp;</p>
+					<p>7<span lang="ru">.&nbsp; Выполните выделение с помощью 
+					инструмента <strong>Умные ножницы</strong>.</span></p>
+					</div>
+		<div class="entry">
+		<h3><a name="Выделение_переднего_плана">Выделение переднего плана</a></h3>
+		<br/>
+		<p>Выделяет объекты, находящиеся на переднем плане. Но так как выделяем мы все равно сами, ру<span lang="ru">ками</span>, то таким объектом можно сделать любую область на изображении, на каком бы плане она ни находилась на самом деле. Создание выделения проходит в два этапа. Сначала мы приблизительно намечаем контуры будущего выделения (напоминает Свободное выделение),
+		<b>а затем редактируем</b> его в режиме, похожем на маску: <i>«фон» 
+		заливается синим (по умолчанию) цветом</i> и <b>для</b> его <b>изменения 
+		используется кисть</b>, она <b>включится автоматически</b> (цвет кисти 
+		неважен).</p>
+		<p>В параметрах инструмента есть пункт «<strong>Интерактивное уточнение</strong>» (<strong><span class="style3">Ctrl</span></strong>), с помощью которого мы переключаем то, что именно мы помечаем: фон или передний план. И кистью закрашиваем что к чему относится.&nbsp;</p>
+		<p>Обозначив то, что нужно, нажимаем <strong><span class="style3">Enter
+		</span></strong>и получаем наше выделение.
+
+</p>
+		<p>8<span lang="ru">. Поработайте с инструментом <strong>Выделение 
+		переднего плана</strong>, изменяя свойства инструмента.</span></p>
+<blockquote>
+		<p class="style13"><strong>Замечание</strong></p>
+		<p>У инструмента «<strong>Контуры</strong>» также есть возможность создавать выделение, делается это кнопкой 
+		<strong>Выделение из контура</strong> в параметрах инструмента. Естественно, уже после того, как вы создали сам контур и замкнули его.&nbsp;</p>
+		</blockquote>
+		</div>
+			<p>У всех инструментов выделения в параметрах есть очень полезная опция: 
+			<strong>Режим</strong>. Их четыре: </p>
+						<p class="style1">А) <strong>новое выделение</strong>;</p>
+						<p class="style1">Б) <strong>добавить к текущему выделению</strong> (<strong><span class="style3">Shift</span></strong>);</p>
+						<p class="style1">В) <strong>вычесть из текущего выделения</strong> (<strong><span class="style3">Ctrl</span></strong>);</p>
+						<p class="style1">Г) <strong>создать выделение из пересечения с текущим</strong> (<strong><span class="style3">Shift + Ctrl</span></strong>).</p>
+						<p>Пиктограммы этих режимов наглядно показывают суть каждого.&nbsp;<span lang="ru">Меняя 
+						режимы выделения, можно создавать сложные фигуры. </span>Удобно и то, что можно комбинировать режимы разных инструментов так, как это нужно. То есть одним инструментом создать выделение, а другим добавить, вычесть или пересечь еще одно выделение (не забываем менять режим у инструмента!).</p>
+						<p><strong>Разность областей</strong>. После создания первой выделенной области нажмите
+клавишу <strong><span class="style3">Ctrl</span></strong> и создайте вторую. В случае, если выделенные области пересекаются, от
+первой области останется лишь та часть, которая не является для них общей. В
+противном случае, первая выделенная область полностью исчезнет, а вторая, наоборот,
+останется, как если бы вы вообще не нажимали никаких клавиш. </p>
+						<p><strong>Пересечение областей</strong>. После создания первой выделенной области нажмите
+клавиши <strong><span class="style3">Shift+Ctrl</span></strong> и создайте вторую. В случае, если выделенные области пересекаются,
+от них останется лишь та часть, которая является для них общей. В противном случае обе
+области исчезнут полностью.&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+<div class="post.img">
+				<img alt="" src="Img1/videl1.png" width="300" height="177" /></div>
+						<div class="entry">
+						<blockquote>
+						<p class="style13"><strong>Подсказка</strong></p>
+						<p>ЛЮБОЕ выделение снимается <strong>
+						<span class="style3">Ctrl + Shift + A</span></strong> или 
+						<strong>Выделение – Снять</strong>.
+
+</p>
+						<p>Весьма полезен пункт <strong>Выделение – Инвертировать</strong> (<strong><span class="style3">Ctrl + I</span></strong>), 
+						он делает выделение наоборот (выделится то, что не было 
+						выделено).</p>
+						</blockquote>
+						</div>
+				<div class="entry">
+				<h3><a name="ВЫДЕЛЕНИЕ_С_ПОМОЩЬЮ_БЫСТРОЙ_МАСКИ">ВЫДЕЛЕНИЕ С ПОМОЩЬЮ БЫСТРОЙ МАСКИ</a></h3>
+				<br/>
+				<p><strong>Быстрая маска </strong>(Shift + Q) </p>
+				<p>Также включается маленькой кнопкой в левом нижнем углу окна с изображением.</p>
+				<p>При включении этой маски изображение зальется полупрозрачным красным цветом, с которым мы и работаем.
+				 Чтобы создать выделение, выберите подходящую по форме и размеру кисть. Важен цвет: белый создает область выделения 
+				 (убирает маску), черный, наоборот, убирает область выделения (создает маску).&nbsp;</p>
+				<p><i>Переключение цвета кисти позволяет очень точно и ровно 
+				создать и отредактировать границу требуемого выделения</i>. 
+				После того, как Вы удовлетворитесь получившейся областью, <b>
+				отключите режим Быстрой маски</b> (так же, как и включение) и 
+				получится нужное выделение.</p>
+				</div>
+				<div class="entry">
+				<h3><a name="ВЫДЕЛЕНИЕ_С_ПОМОЩЬЮ_АЛЬФА-КАНАЛА">ВЫДЕЛЕНИЕ С ПОМОЩЬЮ АЛЬФА-КАНАЛА</a></h3>
+				<br/>
+				<p>Представим, что вы уже что-то выделили и, например, вставили на новый слой. Сбросили выделение, 
+				заработались… И тут вам снова нужно выделить этот вставленный объект. А выделять его заново бывает 
+				порой проблемно. Тут и поможет альфа-канал! Открываем Диалог слоев,
+				 там ПКМ жмем на нужном слое и в появившемся списке выбираем 
+				<strong>Альфа-канал в выделение</strong>. И выделение 
+				 вернется. Можно продолжать с ним работать.</p>
+				 <br/>
+				</div>
+				
+				<div class="entry">
+				
+				<br/>
+				<p><a href="../Zadachnik/zadanie-sposobi-videlenia.html">
+				<img alt="" src="../images1/okna/knopka-zadanie.jpg" width="180" height="23" style="float: right" class="style15" /></a></p>
+				
+				</div>
+<div class="entry"><br/><br/></div>
+			<br/>
+</div>
+</div>
+</div>
+</div>
+			<div id="sidebar">
+				<div id="sidebar-bgtop">
+					<div id="sidebar-bgbtm">
+						<ul>
+							<li>
+								<h2>Содержание</h2>
+								<ul>
+									<li><a href="upragnenia-soderg.html">Уроки</a></li>
+									<li>
+									<a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a></li>
+									<li><a href="../Spravochnik/s1.html">Справочник</a></li>
+									<li><a href="../pravila.html">Об учебнике</a></li>
+									<li><a href="../glossariy.html">Глоссарий</a></li>
+									<li><a href="../resurs.html">Ресурсы</a></li>
+								<li><a href="../galereya/galereya-rabot.html">Галерея</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end div#sidebar -->
+			<div style="clear: both; height: 1px"></div>
+		</div>
+	</div>
+	<!-- end div#page -->
+<!-- end div#wrapper -->
+<div id="footer-wrapper">
+	<div id="footer">
+		<p id="legal">Copyright &copy; 2015  Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+				<p id="legal">© 2015 <a href="#">&nbsp;Домрачева И.Н.</a> </p>
+		<p>&nbsp;</p>
+
+		<p id="links"><a href="../index.html">
+		<img alt="" src="../images1/okna/gimp-concepts-main-windows_files/home.png" width="24" height="24" class="style12" /></a></p>
+		<p>&nbsp;</p>
+		<p><a href="upragnenia-soderg.html">Уроки</a>&nbsp;&nbsp;&nbsp; <span lang="en-us">| </span>&nbsp;&nbsp;&nbsp; 
+		<a href="../Zadachnik/zadachnik-soderganie.html">Практикум</a>&nbsp;&nbsp;&nbsp; <span lang="en-us">| </span>&nbsp;&nbsp;&nbsp; 
+		<a href="../Spravochnik/s1.html">Справочник</a></p>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<!-- end div#footer -->
+
+
+</body>
+</html>
